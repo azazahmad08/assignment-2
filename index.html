@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="favicon" href="logos/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome To Sophor</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-logo">
+        <img
+          src="logos/sophorlogo.png"
+          alt="Sophor Logo"
+          width="10px"
+          height="10px"
+        />
+        <h2><span class="nb">Sophor</span> Travel</h2>
+      </div>
+      <div id="burger-icon">&#9776;</div>
+      <ul>
+        <li>
+          <a href="#"><span class="nav-home">Home</span></a>
+        </li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="container-page">
+        <div class="container-content">
+            <h1>Explore Your Travel</h1>
+        <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+        </div>
+        <div class="box-container">
+            <input type="text" placeholder="Where to go">
+            <div class="box2">
+              <input type="text" name="text" id="" placeholder="When">
+              <img src="logos/down-arrow.png" alt="down-arrow" width="30px">
+            </div>
+            <div class="box3">
+              <input type="text" placeholder="Select Type">
+              <img src="logos/down-arrow.png" alt="down-arrow" width="30px">
+            </div>
+          </div>
+    </div>
+  </body>
+  <script>
+    document.getElementById('burger-icon').addEventListener('click', function() {
+  var navbarUl = document.querySelector('navbar ul');
+  navbarUl.style.display = navbarUl.style.display === 'flex' ? 'none' : 'flex';
+});
+
+  </script>
+</html>
