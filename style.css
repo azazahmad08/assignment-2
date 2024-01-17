@@ -368,6 +368,44 @@ img {
     width: 780px;
     height: 350px;
 }
+.travel-picks {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.pick {
+    flex: 1;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pick img {
+    width: 100%;
+
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h3 {
+    margin: 0;
+}
+
+.rating {
+    font-size: 1.2em;
+    margin-top: auto;
+    color: #FFD700; /* Gold color for stars */
+}
 
 .whyus {
     width: 1400px;
@@ -481,7 +519,7 @@ img {
 .wcu-last-part1 {
     width: 573px;
     height: 284px;
-    margin-top: 24px;
+    margin-top: 14px;
     text-align: left;
 
     border-radius: 16px;
@@ -959,7 +997,7 @@ button {
     .pt-row2-pic3 {
         width: 599px;
         margin: 0 10px;
-        
+
     }
 
     .pt-row2-pic1 img,
@@ -967,27 +1005,180 @@ button {
     .pt-row2-pic3 img {
 
         width: 100%;
-        
+
         height: 303px;
         max-width: 579px;
     }
+
     .pt-row3 {
         display: flex;
         flex-direction: column;
-        
-        margin: 20px 0; 
+
+        margin: 20px 0;
     }
+
     .pt-row3-pic1,
     .pt-row3-pic2 {
         width: 599px;
         margin: 0 10px;
-        
+
     }
-    
+
     .pt-row3-pic1 img,
     .pt-row3-pic2 img {
         width: 100%;
         height: 303px;
         max-width: 579px;
+    }
+    .travel-picks{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .whyus {
+        width: 599px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .wcu-second {
+        width: 599px;
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .whyus h2 {
+        font-size: 20px;
+    }
+
+    .whyus p {
+        width: 560px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .wcu-second-part1{
+        margin-bottom: 10px;
+    }
+    .wcu-last-part1,
+    .wcu-second-part2,
+    .wcu-second-part1{
+        width: 599px;
+        
+    }
+    .wcu-last-part1 p {
+        text-align: justify;
+    }
+
+    .newsletter {
+        width: 599px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 10px 10px
+    }
+
+    .newsltr {
+        width: 599px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsltrbox {
+        width: 599px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .line {
+        background-color: #5a5a5d46;
+        width: 550px;
+
+    }
+
+    .newsltrbox h2 {
+
+        font-size: 34px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .newsltrbox p {
+        font-size: 30px;
+    }
+
+    .name,
+    .email {
+        width: 540px;
+        height: 82px;
+        margin-left: 20px;
+
+    }
+
+    button {
+        width: 550px;
+        height: 82px;
+        font-size: 40px;
+        margin-left: 20px;
+
+    }
+
+    .newsltr-img {
+        width: 599px;
+    }
+
+    .dis {
+        justify-content: center;
+        align-items: center;
+        width: 224px;
+        height: 80px;
+        margin-left:372px;
+        margin-bottom: 48px;
+        border-radius: 10px;
+        margin-top: 60%;
+        background-color: #FF5400;
+        transform: rotate(-29.628deg);
+
+
+    }
+    .footer{
+        margin: 30px 10px;
+    }
+    .footer-content{
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+    }
+    .nav-logo{
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+    }
+    .nav-logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .nav-logo h2{
+        font-size: 50px;
+    }
+    .nb{
+        font-size: 50px;
+    }
+    .line2{
+        width: 580px; 
+
     }
 }
